@@ -144,11 +144,8 @@ public class process extends data {
             if ((number.charAt(i) != '1') & (number.charAt(i) != '2') & (number.charAt(i) != '3') & (number.charAt(i) != '4') & (number.charAt(i) != '5') & (number.charAt(i) != '6') & (number.charAt(i) != '7') & (number.charAt(i) != '8') & (number.charAt(i) != '9') & (number.charAt(i) != 'a') & (number.charAt(i) != 'b') & (number.charAt(i) != 'c') & (number.charAt(i) != 'd') & (number.charAt(i) != 'e') & (number.charAt(i) != 'f')) {
                 bool *= 0;
             }
-
-            System.out.print(number.charAt(i));
         }
-
-        System.out.println();
+        
         return bool;
     }
 
